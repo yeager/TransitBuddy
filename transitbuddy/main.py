@@ -62,7 +62,7 @@ class TransitBuddyWindow(Adw.ApplicationWindow):
         content.append(welcome)
 
         # Från-fält
-        from_label = Gtk.Label(label=_("FRÅN:", xalign=0)
+        from_label = Gtk.Label(label=_("FROM:"), xalign=0
         from_label.add_css_class("heading")
         content.append(from_label)
 
