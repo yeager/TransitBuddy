@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=TransitBuddy
+Name[sv]=Resehjälp
+Comment=Public transit navigation
+Comment[sv]=Kollektivtrafikhjälp
+GenericName=Accessibility Application
+GenericName[sv]=Tillgänglighetsapp
+Exec=python3 -m transitbuddy
+Icon=transitbuddy
+Terminal=false
+Type=Application
+Categories=Utility;Accessibility;
+Keywords=accessibility;a11y;
+Keywords[sv]=tillgänglighet;funktionsnedsättning;
