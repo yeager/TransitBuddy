@@ -38,7 +38,7 @@ class TransitBuddyWindow(Adw.ApplicationWindow):
 
         # Headerbar
         header = Adw.HeaderBar()
-        title = Adw.WindowTitle(title=_("TransitBuddy", subtitle=_("Din reseplanerare")
+        title = Adw.WindowTitle(title=_("TransitBuddy", subtitle=_("Your travel planner")
         header.set_title_widget(title)
         self.main_box.append(header)
 
@@ -57,7 +57,7 @@ class TransitBuddyWindow(Adw.ApplicationWindow):
         scroll.set_child(content)
 
         # Välkomsttext
-        welcome = Gtk.Label(label=_("Vart vill du resa?")
+        welcome = Gtk.Label(label=_("Where do you want to go?")
         welcome.add_css_class("title-1")
         content.append(welcome)
 

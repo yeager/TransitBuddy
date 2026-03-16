@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: transitbuddy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 12:49+0100\n"
+"POT-Creation-Date: 2026-03-16 20:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: transitbuddy/main.py:41
-msgid "Din reseplanerare"
+msgid "Your travel planner"
 msgstr ""
 
 #: transitbuddy/main.py:60
-msgid "Vart vill du resa?"
+msgid "Where do you want to go?"
 msgstr ""
 
 #: transitbuddy/main.py:65
