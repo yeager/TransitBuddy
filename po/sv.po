@@ -13,3 +13,6 @@ msgstr ""
 msgid "🔍 SEARCH TRAVEL"
 msgstr "🔍  SÖK RESA"
 
+
+msgid "FROM:"
+msgstr "FRÅN:"
