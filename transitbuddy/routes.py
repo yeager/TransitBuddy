@@ -2,6 +2,7 @@
 
 import json
 import os
+from transitbuddy.i18n import _
 
 # Standardrutter - enkla exempelrutter i Stockholm
 DEFAULT_ROUTES = [

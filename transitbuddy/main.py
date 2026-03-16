@@ -3,6 +3,7 @@
 import sys
 
 import gi
+from transitbuddy.i18n import _
 
 gi.require_version("Gtk", "4.0")
 gi.require_version("Adw", "1")
@@ -37,7 +38,7 @@ class TransitBuddyWindow(Adw.ApplicationWindow):
 
         # Headerbar
         header = Adw.HeaderBar()
-        title = Adw.WindowTitle(title="TransitBuddy", subtitle="Din reseplanerare")
+        title = Adw.WindowTitle(title=_("TransitBuddy", subtitle=_("Din reseplanerare")
         header.set_title_widget(title)
         self.main_box.append(header)
 
@@ -56,12 +57,12 @@ class TransitBuddyWindow(Adw.ApplicationWindow):
         scroll.set_child(content)
 
         # Välkomsttext
-        welcome = Gtk.Label(label="Vart vill du resa?")
+        welcome = Gtk.Label(label=_("Vart vill du resa?")
         welcome.add_css_class("title-1")
         content.append(welcome)
 
         # Från-fält
-        from_label = Gtk.Label(label="FRÅN:", xalign=0)
+        from_label = Gtk.Label(label=_("FRÅN:", xalign=0)
         from_label.add_css_class("heading")
         content.append(from_label)
 
@@ -70,7 +71,7 @@ class TransitBuddyWindow(Adw.ApplicationWindow):
         content.append(self.from_dropdown)
 
         # Till-fält
-        to_label = Gtk.Label(label="TILL:", xalign=0)
+        to_label = Gtk.Label(label=_("TILL:", xalign=0)
         to_label.add_css_class("heading")
         content.append(to_label)
 
@@ -79,7 +80,7 @@ class TransitBuddyWindow(Adw.ApplicationWindow):
         content.append(self.to_dropdown)
 
         # Sök-knapp
-        search_btn = Gtk.Button(label="🔍  SÖK RESA")
+        search_btn = Gtk.Button(label=_("🔍  SÖK RESA")
         search_btn.add_css_class("suggested-action")
         search_btn.add_css_class("pill")
         search_btn.set_margin_top(8)
