@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=TransitBuddy
+Comment=Enkel reseplanerare med steg-för-steg-instruktioner
+Exec=transitbuddy
+Icon=preferences-system-network
+Terminal=false
+Type=Application
+Categories=Utility;GTK;
+Keywords=resa;kollektivtrafik;buss;tunnelbana;
