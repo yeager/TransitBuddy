@@ -80,7 +80,7 @@ class TransitBuddyWindow(Adw.ApplicationWindow):
         content.append(self.to_dropdown)
 
         # Sök-knapp
-        search_btn = Gtk.Button(label=_("🔍  SÖK RESA")
+        search_btn = Gtk.Button(label=_("🔍 SEARCH TRAVEL")
         search_btn.add_css_class("suggested-action")
         search_btn.add_css_class("pill")
         search_btn.set_margin_top(8)

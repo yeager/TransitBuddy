@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the transitbuddy package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: transitbuddy 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 11:31+0100\n"
+"POT-Creation-Date: 2026-03-16 12:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,30 +17,26 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /tmp/TransitBuddy/transitbuddy/main.py:41
+#: transitbuddy/main.py:41
 msgid "Din reseplanerare"
 msgstr ""
 
-#. Från-fält
-#: /tmp/TransitBuddy/transitbuddy/main.py:65
-msgid "FRÅN:"
-msgstr ""
-
-#. Till-fält
-#: /tmp/TransitBuddy/transitbuddy/main.py:74
-msgid "TILL:"
-msgstr ""
-
-#: /tmp/TransitBuddy/transitbuddy/main.py:41
-msgid "TransitBuddy"
-msgstr ""
-
-#. Välkomsttext
-#: /tmp/TransitBuddy/transitbuddy/main.py:60
+#: transitbuddy/main.py:60
 msgid "Vart vill du resa?"
 msgstr ""
 
-#. Sök-knapp
-#: /tmp/TransitBuddy/transitbuddy/main.py:83
-msgid "🔍  SÖK RESA"
+#: transitbuddy/main.py:65
+msgid "FRÅN:"
+msgstr ""
+
+#: transitbuddy/main.py:74
+msgid "TILL:"
+msgstr ""
+
+#: transitbuddy/main.py:83
+msgid "🔍 SEARCH TRAVEL"
+msgstr ""
+
+#: transitbuddy/main.py:41
+msgid "TransitBuddy"
 msgstr ""
